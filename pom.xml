@@ -66,8 +66,7 @@
                    <url>http://localhost:8082/manager/text</url>
                    <path>/HelloWorld</path>
                    <update>true</update>
-                   <username>tomcat</username>
-                   <password>tomcat</password>
+                   <server>devops</server>
                  </configuration>
             </plugin>
 		</plugins>
