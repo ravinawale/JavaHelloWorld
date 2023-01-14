@@ -11,6 +11,7 @@
 	<groupId>com.devops</groupId>
 	<artifactId>HelloWorld</artifactId>
 	<name>HelloWorld</name>
+	<version>0.0.1</version>
 	<description>HelloWorld</description>
 	<packaging>war</packaging>
 	<properties>
