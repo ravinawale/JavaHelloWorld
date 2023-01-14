@@ -1,6 +1,8 @@
 server:
- port: 8082
- servlet.context-path: /hello
+ port: 9090
+ servlet:
+    context-path: /hello
+
 
 spring:
   mvc:

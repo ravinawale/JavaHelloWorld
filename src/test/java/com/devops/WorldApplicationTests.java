@@ -14,7 +14,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 @SpringBootTest
 @AutoConfigureMockMvc
-class HelloWorldApplicationTests {
+class WorldApplicationTests {
 
 	@Autowired
     private MockMvc mockMvc;

@@ -2,12 +2,12 @@ package com.devops;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
-import org.springframework.stereotype.Component;
 
-@Component
-public class ServletInitializer extends SpringBootServletInitializer {
+public class ServletInitilizer extends SpringBootServletInitializer{
+
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(HelloWorldApplication.class);
+		return application.sources(WorldApplication.class);
 	}
+	
 }
